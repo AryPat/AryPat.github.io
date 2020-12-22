@@ -26,6 +26,13 @@ iframe {
   height: auto;
   transform: translatey(-16rem);
 }
+
+.about {
+  background-color: lightblue;
+  width: 50%;
+  height: 9rem;
+}
+
 @media (max-width: 500px) {
   .title {
     width: calc(100% - 2rem);
