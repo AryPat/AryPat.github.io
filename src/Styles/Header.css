@@ -1,0 +1,34 @@
+iframe {
+  width: 500rem;
+  height: 20rem;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  transform: translatex(5rem);
+  transform: translatex(-5rem);
+  transform: translatey(-1rem);
+}
+.header {
+  font-family: "Helvetica";
+  color: red;
+}
+.header small {
+  color: orange;
+  font-size: 6rem;
+}
+.title {
+  width: 45rem;
+  height: auto;
+  transform: translatey(-16rem);
+}
+@media (max-width: 500px) {
+  .title {
+    width: calc(100% - 2rem);
+    transform: translatey(-14rem);
+  }
+}
