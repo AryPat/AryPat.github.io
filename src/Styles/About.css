@@ -1,6 +1,38 @@
 .about {
-  background-color: lightblue;
-  width: 50%;
-  height: 11rem;
-  border-radius: 1rem;
+  background-color: #445E85;
+  width: auto;
+  height: 13rem;
+  border-radius: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.top{
+  font-family: var(--font-main);
+}
+
+.text{
+  width: 80%;
+  color: white;
+  font-family: var(--font-main);
+  font-size: 1.2rem;
+}
+
+linked{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width: 500px) {
+  .about {
+    width: calc(100% - 2rem);
+    transform: translateY(1rem);
+  }
 }
