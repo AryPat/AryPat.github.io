@@ -1,5 +1,5 @@
 .about {
-  background-color: #445E85;
+  background-color: #445e85;
   width: auto;
   height: 13rem;
   border-radius: 0.7rem;
@@ -11,24 +11,40 @@
   text-align: center;
 }
 
-.top{
+.top {
   font-family: var(--font-main);
 }
 
-.text{
+.btn-primary {
+  background-color: rgb(26, 27, 46);
+  border: none;
+  color: white;
+  font-size: 1.4rem;
+}
+
+.btn-primary:hover {
+  color: rgb(233, 69, 96);
+}
+
+.test {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
   width: 80%;
   color: white;
   font-family: var(--font-main);
   font-size: 1.2rem;
 }
 
-linked{
+linked {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
 
 @media (max-width: 500px) {
   .about {

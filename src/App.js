@@ -1,13 +1,13 @@
 import "./App.css";
 import Header from "./Components/Header";
-import About from "./Components/About";
+import Nav from "./Components/nav";
 
 function App() {
   return (
     <div>
       <Header></Header>
       <div class="whyThis">
-        <About></About>
+        <Nav></Nav>
       </div>
     </div>
   );
