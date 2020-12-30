@@ -10,7 +10,7 @@ class nav extends Component {
           About Me
         </Button>{" "}
         <Button variant="primary">Experience</Button>{" "}
-        <Button variant="primary">Side Tings</Button>{" "}
+        <Button variant="primary">Side Projects</Button>{" "}
       </div>
     );
   }

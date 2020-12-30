@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header";
 import Nav from "./Components/nav";
+import Info from "./Components/Info";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header></Header>
       <div class="whyThis">
         <Nav></Nav>
+        <Info></Info>
       </div>
     </div>
   );
