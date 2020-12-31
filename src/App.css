@@ -7,6 +7,10 @@
   pointer-events: none;
 }
 
+.logo{  
+  width: 2rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -29,7 +33,7 @@
 }
 
 .whyThis {
-  transform: translateY(-8rem);
+  transform: translateY(-7rem);
 }
 
 @keyframes App-logo-spin {
@@ -38,11 +42,5 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-@media (max-width: 500px) {
-  .whyThis {
-    transform: translateY(-4.5rem);
   }
 }

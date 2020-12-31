@@ -36,7 +36,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     width: 50%;
-    height: 80rem;
+    height: 160rem;
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,6 +50,10 @@
 .infoSubTitle{
     font-size: 1.3rem;
     color: rgb(233, 69, 96);
+}
+
+.infoBullet{
+    font-size: 1rem;
 }
 
 #white{
@@ -68,13 +72,74 @@
 
 }
 
+.translateLogo{
+    transform: translateY(0.5rem)
+}
+
 .inside {
     padding-left: 1rem;
 }
 
+.up{
+    padding-top: 1rem;
+}
+
+
+.infoSocial{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 1rem);
+    height: 2rem;
+}
+
+.infoSocialMultiple{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 6rem;
+}
+
+.infoSocialRow{
+    display:flex;
+    flex-direction: column;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% - 2rem);
+    height: auto;
+}
+
+
+.more{
+    padding-top: none;
+}
+
+
+.techBubble{
+    font-size: 0.8rem;
+    background: rgb(16, 15, 15);
+    padding: 0.75rem;
+    border-radius: 1rem;
+    margin: 0.2rem;
+    width: max-content;
+    }   
+    .techBubble:hover{
+        color:rgb(233, 69, 96);
+    }
+
+
 @media screen and (max-width: 1000px) {
     .another {
         width: 95%;
+    }
+    
+    #more{
+        padding-top: 3.5rem;
     }
 }
 
@@ -86,4 +151,5 @@ img {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+  
 

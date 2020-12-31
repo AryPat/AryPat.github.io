@@ -49,9 +49,24 @@ class nav extends Component {
           <div class="infoTitle" id="addSpace2">Experiences</div>
           <div class="infoPara">
             <p class="inside">
-              <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
-              <br></br>
-              <span id="white">September 2019 - Present</span>
+              <div class="infoSocial">
+                <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
+                <a href="https://www.linkedin.com/in/aryanpatel/">
+                  <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                </a>
+              </div>
+              <span id="white">University of Toronto, September 2020 - Present</span>
+              <ul class="infoBullet">
+                <li>
+                  Holding Weekly Office hours for students to assist with academic concerns and issues
+                </li>
+                <li>
+                  Assisting with planning and executing seminars for midterm preperation and effective learning strategies
+                </li>
+                <li>
+                  Communicating among other team members and instructors to plan out crucial learning concepts
+                </li>
+              </ul>
             </p>
           </div>
 
@@ -59,9 +74,26 @@ class nav extends Component {
 
           <div class="infoPara">
             <p class="inside">
-              <span class="infoSubTitle"> Associate Staff, The Canadian National Exhibition </span>
-              <br></br>
+              <div class="infoSocial">
+                <span class="infoSubTitle"> Associate Staff, The Canadian National Exhibition  </span>
+                <a href="https://www.linkedin.com/in/aryanpatel/">
+                  <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                </a>
+              </div>
               <span id="white">July 2019 - August 2019</span>
+
+              <ul class="infoBullet">
+                <li>
+                  Held in-door activies for children to play and past time with
+                </li>
+                <li>
+                  Provided clear instruction to children and adults with standard protocols to prevent accidents and mishaps
+                </li>
+                <li>
+                  Followed the practice of WHMIS
+                </li>
+              </ul>
+
             </p>
           </div>
 
@@ -69,13 +101,229 @@ class nav extends Component {
 
           <div class="infoPara">
             <p class="inside">
-              <span class="infoSubTitle"> Teaching Assistant </span>
+              <span class="infoSubTitle"> Teaching Assistant</span>
               <br></br>
-              <span id="white">December 2018 - April 2019</span>
+              <span id="white">Woburn CI, December 2018 - April 2019</span>
+              <ul class="infoBullet">
+                <li>
+                  Prepared and organized one of my own lesson to present to the class
+                </li>
+                <li>
+                  Inproved the average class grade by 10% by communicating concepts using clear and concise instructional strategies
+                </li>
+                <li>
+                  Ensured all students were satisfied with their experience by multutasking effectivly
+                </li>
+              </ul>
             </p>
           </div>
 
           <div class="infoTitle" id="addSpace2">Side Projects</div>
+
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> U-Impactify  </span>
+                  <span id="white">The E-Learning website dedicated to serve the social-purpose-sector </span>
+                </div>
+
+
+                <div class="infoSocialMultiple">
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                </div>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Users can use this platform to develop their company's capacity, teach, and engage in various courses
+                </li>
+                <li>
+                  Full-Stack Development using Agile Methedologies and Jira Board to track Development Progress
+                </li>
+                <li>
+                  Worked in a team of 7 over the span of 3 dreadful months
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> Angular </div>
+                <div class="techBubble"> MongoDB </div>
+                <div class="techBubble"> Node </div>
+                <div class="techBubble"> Socket.io </div>
+                <div class="techBubble"> Agile </div>
+                <div class="techBubble"> Chart.js </div>
+                <div class="techBubble"> GridFS </div>
+                <div class="techBubble"> Clarity </div>
+                <div class="techBubble"> Figma </div>
+                <div class="techBubble"> Jira </div>
+                <div class="techBubble"> ngx-file-drop </div>
+
+              </div>
+
+            </p>
+          </div>
+
+          <br></br>
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> Spotify API Clone  </span>
+                  <span id="white"> REST API that mimics Spotify using Microservices </span>
+                </div>
+
+
+                <div class="infoSocialMultiple">
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                </div>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Create, Update, and Delete Profiles
+                </li>
+                <li>
+                  Follow and Unfollow profiles
+                </li>
+                <li>
+                  Like, and unlike songs to playlist
+                </li>
+                <li>
+                  Querying songs by properties
+                </li>
+                <li>
+                  Microservies used for future extensibility if required
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> Java </div>
+                <div class="techBubble"> Spring Boot </div>
+                <div class="techBubble"> MongoDB </div>
+                <div class="techBubble"> Neo4j </div>
+                <div class="techBubble"> Postman [end-point calls] </div>
+              </div>
+            </p>
+          </div>
+
+          <br></br>
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> Spotify API Clone  </span>
+                  <span id="white"> REST API that mimics Spotify using Microservices </span>
+                </div>
+
+
+                <div class="infoSocialMultiple">
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                </div>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Create, Update, and Delete Profiles
+                </li>
+                <li>
+                  Follow and Unfollow profiles
+                </li>
+                <li>
+                  Like, and unlike songs to playlist
+                </li>
+                <li>
+                  Querying songs by properties
+                </li>
+                <li>
+                  Microservies used for future extensibility if required
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> Java </div>
+                <div class="techBubble"> Spring Boot </div>
+                <div class="techBubble"> MongoDB </div>
+                <div class="techBubble"> Neo4j </div>
+                <div class="techBubble"> Postman [end-point calls] </div>
+              </div>
+            </p>
+          </div>
+
+          <br></br>
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> Mock Linux Command Line Interface  </span>
+                  <span id="white"> Java Application that mimics core commands found in terminal </span>
+                </div>
+
+
+                <div class="infoSocialMultiple">
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                </div>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Followed Agile Software Development Framework while working in groups of 3
+                </li>
+                <li>
+                  Create your file System
+                </li>
+                <li>
+                  Like, and unlike songs to playlist
+                </li>
+                <li>
+                  Querying songs by properties
+                </li>
+                <li>
+                  Microservies used for future extensibility if required
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> Java </div>
+                <div class="techBubble"> Spring Boot </div>
+                <div class="techBubble"> MongoDB </div>
+                <div class="techBubble"> Neo4j </div>
+                <div class="techBubble"> Postman [end-point calls] </div>
+              </div>
+            </p>
+          </div>
+
+
+
+
 
         </div>
       </div>
