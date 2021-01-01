@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../Styles/Info.css";
 import github from '../Assets/social media/github.png';
 import resume from '../Assets/social media/resume.png';
+import goto from '../Assets/random/internet.png';
 import mail from '../Assets/social media/mail.png';
 import link from '../Assets/social media/link.png';
 
@@ -13,10 +14,10 @@ class nav extends Component {
           <div class="infoTitle">Hello there.</div>
 
           <div class="infoPara">
-            <p class="inside">
+            <p class="inside diff">
               I am a second year computer science student studying at University of Toronto
-              currently Specializing in Software Engineering
-              stream and Majoring in Statistics.
+              currently specializing in the Software Engineering
+              stream and majoring in Statistics.
                  <br></br>
               <br></br>
                  My Current GPA: 3.83/4.00
@@ -24,35 +25,35 @@ class nav extends Component {
                  <br></br>
               <br></br>
 
-                 I am a Self-driven enthusiastic person who is always looking for challenging opportunities to test and apply my knowledge.
+                 I am a self-driven enthusiastic person who is always looking for challenging opportunities to test and apply my knowledge.
                  <br></br>
               <br></br>
                  Please feel free to get in touch with me! I do not bite :D
                  </p>
             <div class="social">
               <a href="https://github.com/AryPat?tab=repositories">
-                <img src={github} alt="logo" width="50rem" class="space" />
+                <img src={github} alt="logo" width="40rem" class="space" />
               </a>
               <a href="https://www.linkedin.com/in/aryanpatel/">
-                <img src={link} alt="logo" width="40rem" class="space" />
+                <img src={link} alt="logo" width="30rem" class="space" />
               </a>
 
-              <a href="https://theuselessweb.com/">
-                <img src={mail} alt="logo" width="50rem" class="space" />
+              <a href="mailto:aryan.patel@mail.utoronto.ca" target="_blank" rel="noopener noreferrer">
+                <img src={mail} alt="logo" width="40rem" class="space" />
               </a>
               <a href="https://theuselessweb.com/">
-                <img src={resume} alt="logo" width="45rem" id="space" />
+                <img src={resume} alt="logo" width="35rem" id="space" />
               </a>
             </div>
           </div>
 
-          <div class="infoTitle" id="addSpace2">Experiences</div>
+          <div class="infoTitle" id="addSpace2">Experience</div>
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
                 <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
-                <a href="https://www.linkedin.com/in/aryanpatel/">
-                  <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                <a href="https://www.amacss.org/">
+                  <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                 </a>
               </div>
               <span id="white">University of Toronto, September 2020 - Present</span>
@@ -76,9 +77,6 @@ class nav extends Component {
             <p class="inside">
               <div class="infoSocial">
                 <span class="infoSubTitle"> Associate Staff, The Canadian National Exhibition  </span>
-                <a href="https://www.linkedin.com/in/aryanpatel/">
-                  <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                </a>
               </div>
               <span id="white">July 2019 - August 2019</span>
 
@@ -118,23 +116,23 @@ class nav extends Component {
             </p>
           </div>
 
-          <div class="infoTitle" id="addSpace2">Side Projects</div>
+          <div class="infoTitle" id="addSpace2">Projects</div>
 
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
                 <div class="infoSocialRow">
                   <span class="infoSubTitle up"> U-Impactify  </span>
-                  <span id="white">The E-Learning website dedicated to serve the social-purpose-sector </span>
+                  <span id="white">An E-Learning website for the social-purpose-sector </span>
                 </div>
 
 
                 <div class="infoSocialMultiple">
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  <a href="https://github.com/AryPat/U-Impactify">
+                    <img src={github} alt="logo" width="40rem" class="translateLogo" />
                   </a>
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
+                  <a href="https://uimpactify.herokuapp.com/">
+                    <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                   </a>
                 </div>
 
@@ -181,14 +179,11 @@ class nav extends Component {
                 </div>
 
 
-                <div class="infoSocialMultiple">
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                </div>
+
+                <a href="https://github.com/AryPat/Spotify-API-Clone">
+                  <img src={github} alt="logo" width="40rem" class="translateLogo" />
+                </a>
+
 
               </div>
 
@@ -226,69 +221,13 @@ class nav extends Component {
             <p class="inside">
               <div class="infoSocial">
                 <div class="infoSocialRow">
-                  <span class="infoSubTitle up"> Spotify API Clone  </span>
-                  <span id="white"> REST API that mimics Spotify using Microservices </span>
+                  <span class="infoSubTitle up"> Mock Linux Shell  </span>
+                  <span id="white"> Java App that mimics commands found in terminal </span>
                 </div>
 
-
-                <div class="infoSocialMultiple">
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                </div>
-
-              </div>
-
-
-              <ul class="infoBullet up">
-                <li>
-                  Create, Update, and Delete Profiles
-                </li>
-                <li>
-                  Follow and Unfollow profiles
-                </li>
-                <li>
-                  Like, and unlike songs to playlist
-                </li>
-                <li>
-                  Querying songs by properties
-                </li>
-                <li>
-                  Microservies used for future extensibility if required
-                </li>
-              </ul>
-
-              <div class="tech">
-                <div class="techBubble"> Java </div>
-                <div class="techBubble"> Spring Boot </div>
-                <div class="techBubble"> MongoDB </div>
-                <div class="techBubble"> Neo4j </div>
-                <div class="techBubble"> Postman [end-point calls] </div>
-              </div>
-            </p>
-          </div>
-
-          <br></br>
-          <div class="infoPara">
-            <p class="inside">
-              <div class="infoSocial">
-                <div class="infoSocialRow">
-                  <span class="infoSubTitle up"> Mock Linux Command Line Interface  </span>
-                  <span id="white"> Java Application that mimics core commands found in terminal </span>
-                </div>
-
-
-                <div class="infoSocialMultiple">
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
-                    <img src={link} alt="logo" width="40rem" class="translateLogo" />
-                  </a>
-                </div>
+                <a href="https://github.com/AryPat/Mock-Linux-Command-Line-Interface">
+                  <img src={github} alt="logo" width="40rem" class="translateLogo" />
+                </a>
 
               </div>
 
@@ -298,29 +237,103 @@ class nav extends Component {
                   Followed Agile Software Development Framework while working in groups of 3
                 </li>
                 <li>
-                  Create your file System
+                  Encompasses SOLID, Single Responsibily, and OOP principles
                 </li>
                 <li>
-                  Like, and unlike songs to playlist
-                </li>
-                <li>
-                  Querying songs by properties
-                </li>
-                <li>
-                  Microservies used for future extensibility if required
+                  Create, save, and load File Systems
                 </li>
               </ul>
 
               <div class="tech">
                 <div class="techBubble"> Java </div>
-                <div class="techBubble"> Spring Boot </div>
-                <div class="techBubble"> MongoDB </div>
-                <div class="techBubble"> Neo4j </div>
-                <div class="techBubble"> Postman [end-point calls] </div>
+                <div class="techBubble"> Agile </div>
+                <div class="techBubble"> SOLID principles </div>
+                <div class="techBubble"> Object Oriented Programming </div>
               </div>
             </p>
           </div>
 
+          <br></br>
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> Un-beatable Connect4 AI  </span>
+                  <span id="white">Java Application with Graphical User Interface</span>
+                </div>
+
+
+                <a href="https://github.com/AryPat/Connect4AI">
+                  <img src={github} alt="logo" width="40rem" class="translateLogo" />
+                </a>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Play with friends or against our customly designed AI
+                </li>
+                <li>
+                  Multiple AI difficulties (easy to very hard)
+                </li>
+                <li>
+                  AI made by Alpha Beta Pruning and MinMax
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> Java </div>
+                <div class="techBubble"> Window Builder </div>
+                <div class="techBubble"> Object Oriented Programming</div>
+                <div class="techBubble"> GUI</div>
+              </div>
+            </p>
+          </div>
+
+          <br></br>
+          <div class="infoPara">
+            <p class="inside">
+              <div class="infoSocial">
+                <div class="infoSocialRow">
+                  <span class="infoSubTitle up"> Portfolio Website </span>
+                  <span id="white">Showcase my side-projects and my experiences</span>
+                </div>
+
+
+                <div class="infoSocialMultiple">
+                  <a href="https://github.com/AryPat?tab=repositories">
+                    <img src={github} alt="logo" width="40rem" class="translateLogo" />
+                  </a>
+                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                    <img src={goto} alt="logo" width="35rem" class="translateLogo" />
+                  </a>
+                </div>
+
+              </div>
+
+
+              <ul class="infoBullet up">
+                <li>
+                  Play with friends or against our customly designed AI
+                </li>
+                <li>
+                  Multiple AI difficulties (easy to very hard)
+                </li>
+                <li>
+                  AI made by Alpha Beta Pruning and MinMax
+                </li>
+              </ul>
+
+              <div class="tech">
+                <div class="techBubble"> HTML </div>
+                <div class="techBubble"> CSS </div>
+                <div class="techBubble"> Bootstrap</div>
+                <div class="techBubble"> Java Script</div>
+                <div class="techBubble"> React</div>
+              </div>
+            </p>
+          </div>
 
 
 

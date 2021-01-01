@@ -9,7 +9,7 @@ class nav extends Component {
         <Button variant="primary" active={false}>
           About Me
         </Button>{" "}
-        <Button variant="primary">Experience</Button>{" "}
+        <Button variant="primary" class="techBubble">Experience</Button>{" "}
         <Button variant="primary">Side Projects</Button>{" "}
       </div>
     );

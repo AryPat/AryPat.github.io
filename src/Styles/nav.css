@@ -16,10 +16,15 @@
 }
 
 .btn-primary {
-  background-color: rgb(26, 27, 46);
+  background-color:rgb(44 45 66);
   border: none;
-    color: white;
-  font-size: 1.4rem;
+  color:rgb(204, 214, 246);
+  font-size: 1.2rem;
+
+  background: rgb(44 45 66);
+  padding: 0.75rem;
+  border-radius: 0.7rem;
+  margin: 0.2rem;
 }
 
 .btn-primary:hover {
@@ -29,6 +34,7 @@
 .test {
   flex-direction: row;
   display: flex;
+  width: 100%;
   justify-content: space-evenly;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,18 +44,22 @@
   color: white;
   font-family: var(--font-main);
   font-size: 1.2rem;
+  position: fixed;
+    top: 0;
+    width: 100%
 }
 
-linked {
+.linked {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width: 500px) {
-  .about {
-    width: calc(100% - 2rem);
-    transform: translateY(1rem);
+.techBubble{
+
+  width: max-content;
+  }   
+  .techBubble:hover{
+      color:rgb(204, 214, 246);
   }
-}
