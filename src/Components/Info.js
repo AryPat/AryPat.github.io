@@ -15,12 +15,19 @@ class nav extends Component {
 
           <div class="infoPara">
             <p class="inside diff">
-              I am a second year computer science student studying at University of Toronto
-              currently specializing in the Software Engineering
-              stream and majoring in Statistics.
+              I am a second year
+              <strong style={{ color: 'rgb(233, 69, 96)' }}> computer science </strong>
+              student studying at University of Toronto
+              currently
+              <strong style={{ color: 'rgb(233, 69, 96)' }}> specializing </strong>
+
+              in the Software Engineering
+              stream and <strong style={{ color: 'rgb(233, 69, 96)' }}> majoring </strong> in Statistics.
                  <br></br>
               <br></br>
-                 My Current GPA: 3.83/4.00
+                 GPA:
+                 <strong style={{ color: 'rgb(233, 69, 96)' }}> 3.83</strong>
+                 /4.00
 
                  <br></br>
               <br></br>
@@ -28,8 +35,8 @@ class nav extends Component {
                  I am a self-driven enthusiastic person who is always looking for challenging opportunities to test and apply my knowledge.
                  <br></br>
               <br></br>
-                 Please feel free to get in touch with me! I do not bite :D
-                 </p>
+                 Please feel free to get in touch with me! I do not bite <strong style={{ color: 'rgb(233, 69, 96)' }}> :D </strong>
+            </p>
             <div class="social">
               <a href="https://github.com/AryPat?tab=repositories">
                 <img src={github} alt="logo" width="40rem" class="space" />
@@ -51,7 +58,7 @@ class nav extends Component {
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
-                <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
+                <span class="infoSubTitle"> AMACSS The Association of Mathamatical and Computer Science Students </span>
                 <a href="https://www.amacss.org/">
                   <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                 </a>
@@ -297,7 +304,7 @@ class nav extends Component {
               <div class="infoSocial">
                 <div class="infoSocialRow">
                   <span class="infoSubTitle up"> Portfolio Website </span>
-                  <span id="white">Showcase my side-projects and my experiences</span>
+                  <span id="white">Website built to showcase my work & experiences</span>
                 </div>
 
 
@@ -305,7 +312,7 @@ class nav extends Component {
                   <a href="https://github.com/AryPat?tab=repositories">
                     <img src={github} alt="logo" width="40rem" class="translateLogo" />
                   </a>
-                  <a href="https://www.linkedin.com/in/aryanpatel/">
+                  <a href="https://github.com/AryPat/portfolio">
                     <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                   </a>
                 </div>
@@ -315,13 +322,13 @@ class nav extends Component {
 
               <ul class="infoBullet up">
                 <li>
-                  Play with friends or against our customly designed AI
+                  Made with React, a front end development framework
                 </li>
                 <li>
-                  Multiple AI difficulties (easy to very hard)
+                  Spline and Particle Js used for 3D & Particle Effects
                 </li>
                 <li>
-                  AI made by Alpha Beta Pruning and MinMax
+                  Deployed via <span > <a href="https://www.heroku.com/" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>Herokuapp.com</a></span>
                 </li>
               </ul>
 
@@ -329,8 +336,9 @@ class nav extends Component {
                 <div class="techBubble"> HTML </div>
                 <div class="techBubble"> CSS </div>
                 <div class="techBubble"> Bootstrap</div>
-                <div class="techBubble"> Java Script</div>
+                <div class="techBubble"> Spline</div>
                 <div class="techBubble"> React</div>
+                <div class="techBubble"> React-Particle-Js</div>
               </div>
             </p>
           </div>
