@@ -25,7 +25,7 @@ function App() {
               "out_mode": "out"
             },
             "line_linked": {
-              "enable": false
+              "enable": true
             }
           },
         }} />
