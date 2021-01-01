@@ -9,7 +9,7 @@ import link from '../Assets/social media/link.png';
 class nav extends Component {
   render() {
     return (
-      <div class="middle">
+      <div class="middle" id="about">
         <div class="another">
           <div class="infoTitle">Hello there.</div>
 
@@ -54,7 +54,7 @@ class nav extends Component {
             </div>
           </div>
 
-          <div class="infoTitle" id="addSpace2">Experience</div>
+          <div class="infoTitle addSpace2" id="Experience">Experience</div>
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
@@ -123,7 +123,7 @@ class nav extends Component {
             </p>
           </div>
 
-          <div class="infoTitle" id="addSpace2">Projects</div>
+          <div class="infoTitle addSpace2" id="Projects">Projects</div>
 
           <div class="infoPara">
             <p class="inside">
