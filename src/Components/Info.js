@@ -58,7 +58,7 @@ class nav extends Component {
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
-                <span class="infoSubTitle"> AMACSS The Association of Mathamatical and Computer Science Students </span>
+                <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
                 <a href="https://www.amacss.org/">
                   <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                 </a>
