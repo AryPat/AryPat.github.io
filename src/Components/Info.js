@@ -312,7 +312,7 @@ class nav extends Component {
                   <a href="https://github.com/AryPat/portfolio" target="__blank">
                     <img src={github} alt="logo" width="40rem" class="translateLogo" />
                   </a>
-                  <a href="https://plznohate.herokuapp.com/" target="__blank">
+                  <a href="https://plznohate.herokuapp.com/">
                     <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                   </a>
                 </div>
