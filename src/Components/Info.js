@@ -38,17 +38,17 @@ class nav extends Component {
                  Please feel free to get in touch with me! I do not bite <strong style={{ color: 'rgb(233, 69, 96)' }}> :D </strong>
             </p>
             <div class="social">
-              <a href="https://github.com/AryPat?tab=repositories">
+              <a href="https://github.com/AryPat?tab=repositories" target="__blank">
                 <img src={github} alt="logo" width="40rem" class="space" />
               </a>
-              <a href="https://www.linkedin.com/in/aryanpatel/">
+              <a href="https://www.linkedin.com/in/aryanpatel/" target="__blank">
                 <img src={link} alt="logo" width="30rem" class="space" />
               </a>
 
               <a href="mailto:aryan.patel@mail.utoronto.ca" target="_blank" rel="noopener noreferrer">
                 <img src={mail} alt="logo" width="40rem" class="space" />
               </a>
-              <a href="https://theuselessweb.com/">
+              <a href="https://theuselessweb.com/" target="__blank">
                 <img src={resume} alt="logo" width="35rem" id="space" />
               </a>
             </div>
@@ -59,7 +59,7 @@ class nav extends Component {
             <p class="inside">
               <div class="infoSocial">
                 <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
-                <a href="https://www.amacss.org/">
+                <a href="https://www.amacss.org/" target="__blank">
                   <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                 </a>
               </div>
@@ -135,10 +135,10 @@ class nav extends Component {
 
 
                 <div class="infoSocialMultiple">
-                  <a href="https://github.com/AryPat/U-Impactify">
+                  <a href="https://github.com/AryPat/U-Impactify" target="__blank">
                     <img src={github} alt="logo" width="40rem" class="translateLogo" />
                   </a>
-                  <a href="https://uimpactify.herokuapp.com/">
+                  <a href="https://uimpactify.herokuapp.com/" target="__blank">
                     <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                   </a>
                 </div>
@@ -187,7 +187,7 @@ class nav extends Component {
 
 
 
-                <a href="https://github.com/AryPat/Spotify-API-Clone">
+                <a href="https://github.com/AryPat/Spotify-API-Clone" target="__blank">
                   <img src={github} alt="logo" width="40rem" class="translateLogo" />
                 </a>
 
@@ -232,7 +232,7 @@ class nav extends Component {
                   <span id="white"> Java App that mimics commands found in terminal </span>
                 </div>
 
-                <a href="https://github.com/AryPat/Mock-Linux-Command-Line-Interface">
+                <a href="https://github.com/AryPat/Mock-Linux-Command-Line-Interface" target="__blank">
                   <img src={github} alt="logo" width="40rem" class="translateLogo" />
                 </a>
 
@@ -270,7 +270,7 @@ class nav extends Component {
                 </div>
 
 
-                <a href="https://github.com/AryPat/Connect4AI">
+                <a href="https://github.com/AryPat/Connect4AI" target="__blank">
                   <img src={github} alt="logo" width="40rem" class="translateLogo" />
                 </a>
 
@@ -309,10 +309,10 @@ class nav extends Component {
 
 
                 <div class="infoSocialMultiple">
-                  <a href="https://github.com/AryPat?tab=repositories">
+                  <a href="https://github.com/AryPat/portfolio" target="__blank">
                     <img src={github} alt="logo" width="40rem" class="translateLogo" />
                   </a>
-                  <a href="https://github.com/AryPat/portfolio">
+                  <a href="https://plznohate.herokuapp.com/" target="__blank">
                     <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                   </a>
                 </div>
