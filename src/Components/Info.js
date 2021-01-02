@@ -331,7 +331,7 @@ class nav extends Component {
                   Spline and Particle Js used for 3D & Particle Effects
                 </li>
                 <li>
-                  Deployed via <span > <a href="https://www.namecheap.com/?gclid=Cj0KCQiA0MD_BRCTARIsADXoopYDkYjBxCEqPM7YrCHAcdiqFzs8Jz42kg7lMmSrAKbTN2a51kMFgEEaAm0QEALw_wcB" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>NameCheap</a></span>
+                  Deployed via <span > <a href="https://pages.github.com/" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>Github Pages</a></span>, domain registered with <span><a href="https://www.namecheap.com/" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>NameCheap</a></span>
                 </li>
               </ul>
 
@@ -350,7 +350,7 @@ class nav extends Component {
 
 
         </div>
-      </div>
+      </div >
     );
   }
 }
