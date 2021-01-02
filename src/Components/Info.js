@@ -11,7 +11,7 @@ class nav extends Component {
     return (
       <div class="middle" id="about">
         <div class="another">
-          <div class="infoTitle">Hello there.</div>
+          <div class="infoTitle">Hello there</div>
 
           <div class="infoPara">
             <p class="inside diff">
