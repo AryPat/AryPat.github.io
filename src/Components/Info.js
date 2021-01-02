@@ -66,10 +66,13 @@ class nav extends Component {
               <span id="white">University of Toronto, September 2020 - Present</span>
               <ul class="infoBullet">
                 <li>
+                  Academic Representative for MATA31 Fall 2020
+                </li>
+                <li>
                   Holding Weekly Office hours for students to assist with academic concerns and issues
                 </li>
                 <li>
-                  Assisting with planning and executing seminars for midterm preperation and effective learning strategies
+                  Assisting with planning and executing <span > <a target="__blank" href="https://www.youtube.com/watch?v=bFNTCCG0ox8&feature=youtu.be&ab_channel=SamyakMehta" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>seminar</a></span> for midterm and final preperation and effective learning strategies
                 </li>
                 <li>
                   Communicating among other team members and instructors to plan out crucial learning concepts
@@ -114,7 +117,7 @@ class nav extends Component {
                   Prepared and organized one of my own lesson to present to the class
                 </li>
                 <li>
-                  Inproved the average class grade by 10% by communicating concepts using clear and concise instructional strategies
+                  Improved the average class grade by 10% by communicating concepts using clear and concise instructional strategies
                 </li>
                 <li>
                   Ensured all students were satisfied with their experience by multutasking effectivly
@@ -151,7 +154,7 @@ class nav extends Component {
                   Users can use this platform to develop their company's capacity, teach, and engage in various courses
                 </li>
                 <li>
-                  Full-Stack Development using Agile Methedologies and Jira Board to track Development Progress
+                  Full-Stack Development using Agile Methodologies and Jira Board to track development progress
                 </li>
                 <li>
                   Worked in a team of 7 over the span of 3 dreadful months
@@ -229,7 +232,7 @@ class nav extends Component {
               <div class="infoSocial">
                 <div class="infoSocialRow">
                   <span class="infoSubTitle up"> Mock Linux Shell  </span>
-                  <span id="white"> Java App that mimics commands found in terminal </span>
+                  <span id="white"> Java Application that mimics commands found in terminal </span>
                 </div>
 
                 <a href="https://github.com/AryPat/Mock-Linux-Command-Line-Interface" target="__blank">
@@ -244,7 +247,7 @@ class nav extends Component {
                   Followed Agile Software Development Framework while working in groups of 3
                 </li>
                 <li>
-                  Encompasses SOLID, Single Responsibily, and OOP principles
+                  Encompassed SOLID, Single Responsibily, and OOP principles
                 </li>
                 <li>
                   Create, save, and load File Systems
@@ -328,7 +331,7 @@ class nav extends Component {
                   Spline and Particle Js used for 3D & Particle Effects
                 </li>
                 <li>
-                  Deployed via <span > <a href="https://www.heroku.com/" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>Herokuapp.com</a></span>
+                  Deployed via <span > <a href="https://www.namecheap.com/?gclid=Cj0KCQiA0MD_BRCTARIsADXoopYDkYjBxCEqPM7YrCHAcdiqFzs8Jz42kg7lMmSrAKbTN2a51kMFgEEaAm0QEALw_wcB" style={{ color: 'rgba(255, 255, 255, 0.671)' }}>NameCheap</a></span>
                 </li>
               </ul>
 
