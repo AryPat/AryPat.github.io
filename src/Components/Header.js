@@ -11,7 +11,18 @@ class Header extends Component {
           src="https://my.spline.design/edited-ce0cb7cb20f6113e3c6d017cba7a3481/"
           frameborder="0"
         ></iframe>
-        <img class="title" src={headerLogo} alt="headerLogo" />
+        <link rel="stylesheet" href="https://use.typekit.net/uno6gnr.css"></link>
+        <div class="title">
+          <div class="insideTitle">
+            <div class="small down">Hi, I am </div>
+            <name class="big">
+              <span style={{ color: 'rgb(233, 69, 96)' }}>ARYAN </span> PATEL
+            </name>
+            <div class="small up">Could you help me find my <span style={{ color: '#45e961' }}>gems</span>? </div>
+          </div>
+
+        </div>
+        {/* <img class="title" src={headerLogo} alt="headerLogo" /> */}
       </center>
     );
   }

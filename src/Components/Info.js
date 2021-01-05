@@ -58,7 +58,7 @@ class nav extends Component {
           <div class="infoPara">
             <p class="inside">
               <div class="infoSocial">
-                <span class="infoSubTitle"> The Association of Mathamatical and Computer Science Students </span>
+                <span class="infoSubTitle"> The Association of Mathematical  and Computer Science Students </span>
                 <a href="https://www.amacss.org/" target="__blank">
                   <img src={goto} alt="logo" width="35rem" class="translateLogo" />
                 </a>
@@ -66,7 +66,7 @@ class nav extends Component {
               <span id="white">University of Toronto, September 2020 - Present</span>
               <ul class="infoBullet">
                 <li>
-                  Academic Representative for MATA31 Fall 2020
+                  Academic Representative for MATA31 (Calculus I) Fall 2020
                 </li>
                 <li>
                   Holding Weekly Office hours for students to assist with academic concerns and issues

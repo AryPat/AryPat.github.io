@@ -27,7 +27,7 @@
 }
 
 .whyThis {
-  transform: translateY(-9rem);
+  transform: translateY(-12rem);
 }
 
 .workwork{
@@ -38,9 +38,9 @@
   
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1200px) {
   .whyThis {
-    transform: translateY(-5rem);
+    transform: translateY(-8rem);
   }
   
 }
