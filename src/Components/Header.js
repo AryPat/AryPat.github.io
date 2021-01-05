@@ -18,7 +18,7 @@ class Header extends Component {
             <name class="big">
               <span style={{ color: 'rgb(233, 69, 96)' }}>ARYAN </span> PATEL
             </name>
-            <div class="small up">Could you help me find my <span style={{ color: '#45e961' }}>gems</span>? </div>
+            <div class="small upp">Could you help me find my <span style={{ color: '#45e961' }}>gems</span>? </div>
           </div>
 
         </div>

@@ -70,8 +70,8 @@ font-weight: 400;
   transform: translatey(1.4rem);
 }
 
-.up{
-  transform: translatey(-2.4rem);
+.upp{
+  transform: translatey(-1.6rem);
 }
 
 @media (max-width: 1200px) {
@@ -84,8 +84,8 @@ font-weight: 400;
   .down{
     transform: translatey(0.9rem);
   }
-  .up{
-    transform: translatey(-2rem);
+  .upp{
+    transform: translatey(-1rem);
   }
 }
 
