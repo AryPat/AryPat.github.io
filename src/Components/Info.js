@@ -121,7 +121,7 @@ class nav extends Component {
                   Improved the average class grade by 10% by communicating concepts using clear and concise instructional strategies
                 </li>
                 <li>
-                  Ensured all students were satisfied with their experience by multutasking effectivly
+                  Ensured all students were satisfied with their experience by multitasking effectively
                 </li>
               </ul>
             </p>
