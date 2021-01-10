@@ -109,8 +109,9 @@ class nav extends Component {
 
           <div class="infoPara">
             <p class="inside">
-              <span class="infoSubTitle"> Teaching Assistant</span>
-              <br></br>
+              <div class="infoSocial">
+                <span class="infoSubTitle"> Teaching Assistant</span>
+              </div>
               <span id="white">Woburn CI, December 2018 - April 2019</span>
               <ul class="infoBullet">
                 <li>

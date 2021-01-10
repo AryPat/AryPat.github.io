@@ -9,8 +9,6 @@ iframe {
   align-items: center;
 }
 .contact {
-  transform: translatex(5rem);
-  transform: translatex(-5rem);
   transform: translatey(-1rem);
 }
 .header {
@@ -22,7 +20,6 @@ iframe {
   font-size: 6rem;
 }
 .title {
-  width: 50rem;
   height: 100%;
   transform: translatey(-17rem);
   padding-left: 1rem;
@@ -52,6 +49,7 @@ justify-content: space-around;
 }
 
 .big{
+
   font-family: league-gothic, sans-serif;
   color: white;
   letter-spacing: 1.3rem;
@@ -74,7 +72,7 @@ font-weight: 400;
   transform: translatey(-1.6rem);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .title {
     transform: translatey(-14rem);
   }
@@ -82,15 +80,15 @@ font-weight: 400;
     letter-spacing: 1rem;
   }
   .down{
-    transform: translatey(0.9rem);
+    transform: translatey(0.6rem);
   }
   .upp{
-    transform: translatey(-1rem);
+    transform: translatey(-0.7rem);
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   .big{
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }
