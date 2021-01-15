@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../Styles/Info.css";
 import github from '../Assets/social media/github.png';
 import resume from '../Assets/social media/resume.png';
+import AryanPatel_Updated_Jan2021 from "../Assets/AryanPatel_Updated_Jan2021.pdf";
 import goto from '../Assets/random/internet.png';
 import mail from '../Assets/social media/mail.png';
 import link from '../Assets/social media/link.png';
@@ -26,7 +27,7 @@ class nav extends Component {
                  <br></br>
               <br></br>
                  GPA:
-                 <strong style={{ color: 'rgb(233, 69, 96)' }}> 3.83</strong>
+                 <strong style={{ color: 'rgb(233, 69, 96)' }}> 3.79</strong>
                  /4.00
 
                  <br></br>
@@ -42,14 +43,14 @@ class nav extends Component {
                 <img src={github} alt="logo" width="40rem" class="space" />
               </a>
               <a href="https://www.linkedin.com/in/aryanpatel/" target="__blank">
-                <img src={link} alt="logo" width="30rem" class="space" />
+                <img src={link} alt="logo" width="35rem" class="space" />
               </a>
 
               <a href="mailto:aryan.patel@mail.utoronto.ca" target="_blank" rel="noopener noreferrer">
                 <img src={mail} alt="logo" width="40rem" class="space" />
               </a>
-              <a href="https://theuselessweb.com/" target="__blank">
-                <img src={resume} alt="logo" width="35rem" id="space" />
+              <a href={AryanPatel_Updated_Jan2021} target="__blank">
+                <img src={resume} alt="logo" width="40rem" id="space" style={{ padding: '0.5rem' }} />
               </a>
             </div>
           </div>
