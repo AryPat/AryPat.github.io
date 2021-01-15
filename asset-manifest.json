@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.36ec883d.chunk.css",
-    "main.js": "/static/js/main.cd1804b2.chunk.js",
-    "main.js.map": "/static/js/main.cd1804b2.chunk.js.map",
+    "main.js": "/static/js/main.8865a5b9.chunk.js",
+    "main.js.map": "/static/js/main.8865a5b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1ed07455.js",
     "runtime-main.js.map": "/static/js/runtime-main.1ed07455.js.map",
     "static/js/2.5e128c40.chunk.js": "/static/js/2.5e128c40.chunk.js",
@@ -12,16 +12,16 @@
     "index.html": "/index.html",
     "static/css/main.36ec883d.chunk.css.map": "/static/css/main.36ec883d.chunk.css.map",
     "static/js/2.5e128c40.chunk.js.LICENSE.txt": "/static/js/2.5e128c40.chunk.js.LICENSE.txt",
+    "static/media/AryanPatel_Updated_Jan2021.2064df11.pdf": "/static/media/AryanPatel_Updated_Jan2021.2064df11.pdf",
     "static/media/github.539ab584.png": "/static/media/github.539ab584.png",
     "static/media/internet.3bddc702.png": "/static/media/internet.3bddc702.png",
     "static/media/mail.cfbaba11.png": "/static/media/mail.cfbaba11.png",
-    "static/media/resume.53c1eeee.png": "/static/media/resume.53c1eeee.png",
     "static/media/title.ff7d0d5b.png": "/static/media/title.ff7d0d5b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ed07455.js",
     "static/js/2.5e128c40.chunk.js",
     "static/css/main.36ec883d.chunk.css",
-    "static/js/main.cd1804b2.chunk.js"
+    "static/js/main.8865a5b9.chunk.js"
   ]
 }
