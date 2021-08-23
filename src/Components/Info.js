@@ -100,7 +100,7 @@ class nav extends Component {
                   Developed the foundation of routing e-transfer services within RBC clients using microservice architecture
                 </li>
                 <li>Increased overall code testing efforts by <strong>30%</strong> by reworking J-Unit and regression test cases for storing mapped domain API request into MongoDB</li>
-                <li><strong>Participated</strong> in monthly chapter meets and bi-weekly sprint demosin front of Real Time Payment Directors, Clients, and Stakeholders</li>
+                <li><strong>Participated</strong> in monthly chapter meets and bi-weekly sprint demo for Real Time Payment Directors, Clients, and Shareholders</li>
               </ul>
             </p>
           </div>
