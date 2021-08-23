@@ -20,15 +20,6 @@
     padding: 1rem;
 }
 
-.addSpace2{
-    padding-top: 2rem;
-}
-
-.addSpace1{
-    padding-top: 1rem;
-}
-
-
 .another{
     padding-top: 2rem;
     display: flex;
@@ -70,6 +61,7 @@
     border-radius: 0.5rem;
     width: 100%;
     height: auto;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -103,7 +95,7 @@
 .infoSocialMultiple{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 6rem;
 }
 
@@ -123,6 +115,10 @@
 
 .more{
     padding-top: none;
+}
+
+.github{
+    padding-left: 1rem;
 }
 
 
