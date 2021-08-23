@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../Styles/Info.css";
 import github from "../Assets/social media/github.png";
 import resume from "../Assets/social media/resume.png";
-import AryanPatel_Updated_Jan2021 from "../Assets/AryanPatel_Updated_Jan2021.pdf";
+import Resume from "../Assets/Patel_Aryan_Aug_22.pdf";
 import goto from "../Assets/random/internet.png";
 import mail from "../Assets/social media/mail.png";
 import link from "../Assets/social media/link.png";
@@ -67,7 +67,7 @@ class nav extends Component {
               >
                 <img src={mail} alt="logo" width="40rem" class="space" />
               </a>
-              <a href={AryanPatel_Updated_Jan2021} target="__blank">
+              <a href={Resume} target="__blank">
                 <img
                   src={resume}
                   alt="logo"
