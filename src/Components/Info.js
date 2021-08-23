@@ -88,11 +88,20 @@ class nav extends Component {
               <div class="infoSocial">
                 <span class="infoSubTitle">
                   {" "}
-                  Cloud Software Developer (Incoming){" "}
+                  Cloud Software Developer{" "}
                 </span>
               </div>
               <span id="white">Royal Bank of Canada, May 2021 - Aug 2021</span>
-              <ul class="infoBullet"></ul>
+              <ul class="infoBullet">
+                <li>
+                  Contributing to the Real Time Payment Application with a yearly estimated savings of <strong>$2 million</strong> dollars from Interac
+                </li>
+                <li>
+                  Developed the foundation of routing e-transfer services within RBC clients using microservice architecture
+                </li>
+                <li>Increased overall code testing efforts by <strong>30%</strong> by reworking J-Unit and regression test cases for storing mapped domain API request into MongoDB</li>
+                <li><strong>Participated</strong> in monthly chapter meets and bi-weekly sprint demosin front of Real Time Payment Directors, Clients, and Stakeholders</li>
+              </ul>
             </p>
           </div>
           <br></br>
