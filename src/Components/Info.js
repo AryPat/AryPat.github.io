@@ -137,8 +137,8 @@ class nav extends Component {
                       </a>}
                   </div>
                   
-      
-                  <ul>
+                  
+                  <ul style={{ "width": "85%" }}>
                     {exp.BulletPoints.map((point) => {
                       return <li>{point}</li>;
                     })}
