@@ -9,23 +9,28 @@ import mail from "../Assets/social media/mail.png";
 import link from "../Assets/social media/link.png";
 import experience from "../Assets/experience.json";
 import project from "../Assets/project.json";
+import { CgSun } from "react-icons/cg";
+import { HiMoon } from "react-icons/hi";
 
 
 const Heading = styled.div`
   font-size: 2rem;
-  color: #FFC175;
+  color: ${props => props.theme.headingColor};
   padding-bottom: 1rem;
+  transition: all .5s ease;
 `;
 
 const Title = styled.div`
   font-size: 1.3rem;
-  color: rgb(233, 69, 96);
+  color: ${props => props.theme.titleColor};
+  transition: all .5s ease;
 `;
 
 const SubTitle = styled.div`
-  color:rgb(204, 214, 246);
+  color:${props => props.theme.subTitleColor};
   font-size: 1rem;
   padding-top: 0.2rem;
+  transition: all .5s ease;
 `;
 
 const Tech = styled.div`
@@ -34,19 +39,52 @@ const Tech = styled.div`
   flex-wrap: wrap;
   width: calc(100% - 2rem);
   height: auto;
+  transition: all .5s ease;
 `;
 
 
+const TechBubble = styled.div`
+  font-size: 0.8rem;
+  background: ${props => props.theme.techBoxColor};
+  color: ${props => props.theme.techBoxText};
+  padding: 0.75rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  width: max-content;
+  transition: all .5s ease;
+`;
+
+
+const Info = styled.div`
+  color: ${props => props.theme.textBody};
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:${props => props.theme.boxColor};
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  transition: all .5s ease;
+`;
+
 
 class nav extends Component {
+  
   render() {
+   
+
     return (
       <div class="container">
         <div class="container-body">
-          <Heading>Hello there</Heading>
 
-          <div class="container-info">
-            <p  style={{ color: "rgb(204, 214, 246)", "padding-left": "1rem" }}>
+          <Heading id="about">Hello there</Heading>
+
+          <Info>
+            <p  style={{ "padding-left": "1rem" }}>
               I am a second year
               <strong style={{ color: "rgb(233, 69, 96)" }}>
                 {" "}
@@ -109,16 +147,16 @@ class nav extends Component {
                 />
               </a>
             </div>
-          </div>
+          </Info>
 
-          <Heading>
+          <Heading id="Experience" >
             Experience
           </Heading>
 
           {
             experience.map((exp) =>
             {
-              return <div class="container-info">
+              return <Info>
                 <p class="container-info-inside">
                   <div class="container-headings">
                   <div class="infoSocialRow">
@@ -144,16 +182,16 @@ class nav extends Component {
                     })}
                   </ul>
                 </p>
-              </div>;
+              </Info>;
 
             })
           }
 
-          <Heading>Projects</Heading>
+          <Heading id="Projects">Projects</Heading>
 
           {
             project.map((pro) => {
-              return <div class="container-info">
+              return <Info>
               <p class="container-info-inside">
                 <div class="container-headings">
                   <div class="infoSocialRow">
@@ -199,10 +237,10 @@ class nav extends Component {
                 </ul>
                 
                 <Tech>
-                  {pro.Tech.map((tech) => {return  <div class="techBubble">{tech}</div>;})}
+                  {pro.Tech.map((tech) => {return  <TechBubble class="techBubble">{tech}</TechBubble>;})}
                 </Tech>
               </p>
-            </div>;
+            </Info>;
             })
           }
         </div>

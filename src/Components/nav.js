@@ -2,6 +2,23 @@ import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 import "../Styles/nav.css";
 import { Link } from "react-scroll";
+import styled from "styled-components";
+
+const Add = styled(Button)`
+  background-color:${props => props.theme.optionBoxColor};
+  border: none;
+  color:${props => props.theme.optionTextColor};
+  font-size: 1.2rem;
+
+
+  padding: 0.75rem;
+  border-radius: 0.7rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  &:hover {
+    color: ${props => props.theme.optionHoverColor};
+  }
+  `;
 
 class nav extends Component {
   render() {
@@ -16,9 +33,9 @@ class nav extends Component {
           offset={0}
           duration={800}
         >
-          <Button variant="primary" active={false}>
+          <Add variant="primary" active={false}>
             About Me
-        </Button>{" "}
+        </Add>{" "}
         </Link>
 
         <Link
@@ -28,7 +45,7 @@ class nav extends Component {
           smooth={true}
           offset={0}
           duration={800}
-        ><Button variant="primary" class="techBubble">Experience</Button>{" "}</Link>
+        ><Add variant="primary">Experience</Add>{" "}</Link>
 
 
         <Link
@@ -38,7 +55,7 @@ class nav extends Component {
           smooth={true}
           offset={0}
           duration={800}
-        > <Button variant="primary">Projects</Button>{" "}</Link>
+        > <Add variant="primary">Projects</Add>{" "}</Link>
 
 
 

@@ -15,7 +15,7 @@
   font-family: var(--font-main);
 }
 
-.btn-primary {
+.Add-primary {
   background-color:rgb(44 45 66);
   border: none;
   color:rgb(204, 214, 246);
@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 
-.btn-primary:hover {
+.Add-primary:hover {
   color: rgb(233, 69, 96);
 }
 
