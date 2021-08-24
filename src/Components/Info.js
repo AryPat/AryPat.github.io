@@ -17,20 +17,20 @@ const Heading = styled.div`
   font-size: 2rem;
   color: ${props => props.theme.headingColor};
   padding-bottom: 1rem;
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 const Title = styled.div`
   font-size: 1.3rem;
   color: ${props => props.theme.titleColor};
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 const SubTitle = styled.div`
   color:${props => props.theme.subTitleColor};
   font-size: 1rem;
   padding-top: 0.2rem;
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 const Tech = styled.div`
@@ -39,7 +39,7 @@ const Tech = styled.div`
   flex-wrap: wrap;
   width: calc(100% - 2rem);
   height: auto;
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 
@@ -51,7 +51,7 @@ const TechBubble = styled.div`
   border-radius: 1rem;
   margin: 0.2rem;
   width: max-content;
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 
@@ -68,7 +68,7 @@ const Info = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  transition: all .5s ease;
+  transition: all 2s ease;
 `;
 
 
