@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import styled from "styled-components";
 import "../Styles/Info.css";
 import github from "../Assets/social media/github.png";
 import resume from "../Assets/social media/resume.png";
@@ -9,15 +10,43 @@ import link from "../Assets/social media/link.png";
 import experience from "../Assets/experience.json";
 import project from "../Assets/project.json";
 
+
+const Heading = styled.div`
+  font-size: 2rem;
+  color: #FFC175;
+  padding-bottom: 1rem;
+`;
+
+const Title = styled.div`
+  font-size: 1.3rem;
+  color: rgb(233, 69, 96);
+`;
+
+const SubTitle = styled.div`
+  color:rgb(204, 214, 246);
+  font-size: 1rem;
+  padding-top: 0.2rem;
+`;
+
+const Tech = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc(100% - 2rem);
+  height: auto;
+`;
+
+
+
 class nav extends Component {
   render() {
     return (
-      <div class="middle" id="about">
-        <div class="another">
-          <div class="infoTitle">Hello there</div>
+      <div class="container">
+        <div class="container-body">
+          <Heading>Hello there</Heading>
 
-          <div class="infoPara">
-            <p class="inside diff">
+          <div class="container-info">
+            <p  style={{ color: "rgb(204, 214, 246)", "padding-left": "1rem" }}>
               I am a second year
               <strong style={{ color: "rgb(233, 69, 96)" }}>
                 {" "}
@@ -82,30 +111,34 @@ class nav extends Component {
             </div>
           </div>
 
-          <div class="infoTitle" id="Experience">
+          <Heading>
             Experience
-          </div>
+          </Heading>
 
           {
             experience.map((exp) =>
             {
-              return <div class="infoPara">
-                <p class="inside">
-                  <div class="infoSocial">
-                    <span class="infoSubTitle">{exp.Title}</span>
+              return <div class="container-info">
+                <p class="container-info-inside">
+                  <div class="container-headings">
+                  <div class="infoSocialRow">
+                  <Title>{exp.Title}</Title>
+                  <SubTitle>{exp.SubTitle}</SubTitle>
+                    </div>
+                    
                     {exp.website && 
-                      <a href={exp.website} target="__blank">
+                      <a href={exp.website} target="__blank" style={{ "padding-right": "1rem" }}>
                         <img
                           src={goto}
                           alt="logo"
                           width="35rem"
-                          class="translateLogo"
+                 
                         />
                       </a>}
                   </div>
                   
-                  <span id="white">{exp.SubTitle}</span>
-                  <ul class="infoBullet">
+      
+                  <ul>
                     {exp.BulletPoints.map((point) => {
                       return <li>{point}</li>;
                     })}
@@ -116,20 +149,18 @@ class nav extends Component {
             })
           }
 
-          <div class="infoTitle" id="Projects">
-            Projects
-          </div>
+          <Heading>Projects</Heading>
 
           {
             project.map((pro) => {
-              return <div class="infoPara">
-              <p class="inside">
-                <div class="infoSocial">
+              return <div class="container-info">
+              <p class="container-info-inside">
+                <div class="container-headings">
                   <div class="infoSocialRow">
-                    <span class="infoSubTitle up">{pro.Title}</span>
-                    <span id="white">
+                    <Title>{pro.Title}</Title>
+                    <SubTitle>
                       {pro.SubTitle}
-                    </span>
+                    </SubTitle>
                   </div>
 
                   
@@ -139,7 +170,7 @@ class nav extends Component {
                         src={goto}
                         alt="logo"
                         width="35rem"
-                        class="translateLogo"
+       
                       />
                     </a>}
                     <a
@@ -151,7 +182,7 @@ class nav extends Component {
                         src={github}
                         alt="logo"
                         width="40rem"
-                        class="translateLogo"
+             
                       />
                     </a>
                   
@@ -159,7 +190,7 @@ class nav extends Component {
                   </div>
                 </div>
 
-                <ul class="infoBullet up">
+                <ul>
                   {
                     pro.BulletPoints.map((points) => {
                       return <li>{points}</li>;
@@ -167,9 +198,9 @@ class nav extends Component {
                   }
                 </ul>
                 
-                <div class="tech">
+                <Tech>
                   {pro.Tech.map((tech) => {return  <div class="techBubble">{tech}</div>;})}
-                </div>
+                </Tech>
               </p>
             </div>;
             })

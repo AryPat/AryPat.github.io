@@ -22,7 +22,8 @@ function App() {
             },
             "move": {
               "direction": "none",
-              "out_mode": "out"
+              "out_mode": "out",
+              "speed": 1.5,
             },
             "line_linked": {
               "enable": true
