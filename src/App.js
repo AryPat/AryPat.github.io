@@ -76,8 +76,13 @@ function App() {
               "speed": 1.5,
             },
             "line_linked": {
-              "enable": true
-            }
+              "enable": true,
+              "distance": 150,
+              "color": theme == "dark" ? "#FFFFFF" : "#000000",
+            },
+            "color": {
+              "value": theme == "dark" ? "#FFFFFF" : "#000000"
+            },
           },
         }} />
       <Header theme={theme} setTheme={setTheme}></Header>
