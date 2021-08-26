@@ -25,23 +25,17 @@ const Toggle = styled.button`
     transition: all .5s ease;
 `;
 
-const icon = <HiMoon size={40} />;
 
 class Header extends Component {
   render() {
 
     function changeTheme(props) {
-      if (props.theme == "light") {
-        props.setTheme("dark");
-      } else {
-        props.setTheme("light");
-      }
+      props.theme == "light" ? props.setTheme("dark") : props.setTheme("light")
     };
 
     const icon = this.props.theme === "light" ? <HiMoon size={40} /> : <CgSun size={40} />;
     
     URL = (props) => {
-      console.log(props.theme)
       return props.theme == "dark" ? "https://my.spline.design/edited-ce0cb7cb20f6113e3c6d017cba7a3481/" : "https://my.spline.design/editedcopy-8b737870c23cf57d7444cb8531f94764/" 
     }
 
