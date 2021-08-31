@@ -3,7 +3,7 @@ import styled from "styled-components";
 import "../Styles/Info.css";
 import github from "../Assets/social media/github.png";
 import resume from "../Assets/social media/resume.png";
-import Resume from "../Assets/Patel_Aryan_Aug_22.pdf";
+import Resume from "../Assets/Patel_Resume.pdf";
 import goto from "../Assets/random/internet.png";
 import mail from "../Assets/social media/mail.png";
 import link from "../Assets/social media/link.png";
