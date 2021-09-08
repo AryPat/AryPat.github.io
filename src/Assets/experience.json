@@ -1,5 +1,26 @@
 [
     {
+        "Title": "Incoming Software Developer Externship @ GitHub",
+        "SubTitle": "Major League Hacking, Sept 2021 - Dec 2021",
+        "BulletPoints":
+            [
+                "Developing on the open and inner source software powering GitHub.com using TypeScript, Node.js, and Ruby",
+                "Selected as one of 22 interns from 5000+ international applicants, under the guidance of GitHub engineers and MLH mentors"  
+            ],
+        "website": null
+    },
+
+    {
+        "Title": "Teaching Assistant",
+        "SubTitle": "University of Toronto, Sept 2021 - Dec 2021",
+        "BulletPoints":
+            [
+                "CSCB07: Software Design",
+                "Holding weekly office hours and Tutorials"  
+            ],
+        "website": null
+    },
+    {
         "Title": "Cloud Software Developer",
         "SubTitle": "Royal Bank of Canada, May 2021 - Aug 2021",
         "BulletPoints":
@@ -33,18 +54,6 @@
                 "Held in-door activies for children to play and past time with",
                 "Provided clear instruction to children and adults with standard protocols to prevent accidents and mishaps",
                 "Followed the practice of WHMIS"
-            ],
-        "website": null
-    },
-
-    {
-        "Title": "Teaching Assistant",
-        "SubTitle": "Woburn CI, December 2018 - April 2019",
-        "BulletPoints":
-            [
-                "Prepared and organized one of my own lesson to present to the class",
-                "Improved the average class grade by 10% by communicating concepts using clear and concise instructional strategies",
-                "Ensured all students were satisfied with their experience by multitasking effectively"
             ],
         "website": null
     }
