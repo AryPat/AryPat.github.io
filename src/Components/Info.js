@@ -85,7 +85,7 @@ class nav extends Component {
 
           <Info>
             <p  style={{ "padding-left": "1rem" }}>
-              I am a second year
+              I am a third year
               <strong style={{ color: "rgb(233, 69, 96)" }}>
                 {" "}
                 computer science{" "}
@@ -104,7 +104,7 @@ class nav extends Component {
               <br></br>
               <br></br>
               GPA:
-              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.79</strong>
+              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.74</strong>
               /4.00
               <br></br>
               <br></br>I am a self-driven enthusiastic person who is always
