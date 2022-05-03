@@ -11,8 +11,10 @@
     "Title": "Software Engineer Intern",
     "SubTitle": "Github & Major League Hacking, Sept 2021 - Dec 2021",
     "BulletPoints": [
-      "Developing on the open and inner source software powering GitHub.com using TypeScript, Node.js, and Ruby",
-      "Selected as one of 22 interns from 5000+ international applicants, under the guidance of GitHub engineers and MLH mentors"
+      "Pioneered the development of a CLI tool in Node.js allowing 1000s of customers prepare repository migrations to GitHub",
+      "Optimized version control fetching metrics by 80% using concurrency and multithreaded API requests",
+      "Built a custom mapper to export critical metrics into CSVs enabling customers to scope the cost of migration efforts",
+      "Utilized ETL and Fan-Out processes to migrate GitHub Enterprise repositories to Github.com using Ruby on Rails, Twirp and Sidekiq"
     ],
     "website": "https://fellowship.mlh.io/programs/software-engineering"
   },
