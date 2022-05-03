@@ -19,10 +19,11 @@
 
   {
     "Title": "Teaching Assistant",
-    "SubTitle": "University of Toronto, Sept 2021 - Dec 2021",
+    "SubTitle": "University of Toronto, Sept 2021 - Aug 2022",
     "BulletPoints": [
-      "CSCB07: Software Design",
-      "Holding weekly office hours and Tutorials"
+      "Software Design (CSCB07 - Winter 2022)",
+      "Design and Analysis of Data Structures (CSCB63 - Winter 2022)",
+      "Software Design (CSCB07 - Fall 2021)"
     ],
     "website": null
   },
