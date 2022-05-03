@@ -1,60 +1,63 @@
 [
-    {
-        "Title": "Software Engineer Externship @ GitHub",
-        "SubTitle": "Major League Hacking, Sept 2021 - Dec 2021",
-        "BulletPoints":
-            [
-                "Developing on the open and inner source software powering GitHub.com using TypeScript, Node.js, and Ruby",
-                "Selected as one of 22 interns from 5000+ international applicants, under the guidance of GitHub engineers and MLH mentors"  
-            ],
-        "website": "https://fellowship.mlh.io/programs/software-engineering"
-    },
+  {
+    "Title": "Backend Developer Intern ",
+    "SubTitle": "Shopify, May 2022 - Aug 2022",
+    "BulletPoints": [
+      "Incoming Summer 2022 Intern – Developing using Ruby on Rails under the core team TRUST"
+    ],
+    "website": "https://www.shopify.ca/"
+  },
+  {
+    "Title": "Software Engineer Intern",
+    "SubTitle": "Github & Major League Hacking, Sept 2021 - Dec 2021",
+    "BulletPoints": [
+      "Developing on the open and inner source software powering GitHub.com using TypeScript, Node.js, and Ruby",
+      "Selected as one of 22 interns from 5000+ international applicants, under the guidance of GitHub engineers and MLH mentors"
+    ],
+    "website": "https://fellowship.mlh.io/programs/software-engineering"
+  },
 
-    {
-        "Title": "Teaching Assistant",
-        "SubTitle": "University of Toronto, Sept 2021 - Dec 2021",
-        "BulletPoints":
-            [
-                "CSCB07: Software Design",
-                "Holding weekly office hours and Tutorials"  
-            ],
-        "website": null
-    },
-    {
-        "Title": "Cloud Software Developer",
-        "SubTitle": "Royal Bank of Canada, May 2021 - Aug 2021",
-        "BulletPoints":
-            [
-                "Contributing to the Real Time Payment Application with a yearly estimated savings of $2 million dollars from Interac",
-                "Developed the foundation of routing e-transfer services within RBC clients using microservice architecture",
-                "Increased overall code testing efforts by 30% by reworking J-Unit and regression test cases for storing mapped domain API request into MongoDB",
-                "Participated in monthly chapter meets and bi-weekly sprint demo for Real Time Payment Directors, Clients, and Shareholders"
-            ],
-        "website": null
-    },
+  {
+    "Title": "Teaching Assistant",
+    "SubTitle": "University of Toronto, Sept 2021 - Dec 2021",
+    "BulletPoints": [
+      "CSCB07: Software Design",
+      "Holding weekly office hours and Tutorials"
+    ],
+    "website": null
+  },
+  {
+    "Title": "Cloud Software Developer",
+    "SubTitle": "Royal Bank of Canada, May 2021 - Aug 2021",
+    "BulletPoints": [
+      "Contributing to the Real Time Payment Application with a yearly estimated savings of $2 million dollars from Interac",
+      "Developed the foundation of routing e-transfer services within RBC clients using microservice architecture",
+      "Increased overall code testing efforts by 30% by reworking J-Unit and regression test cases for storing mapped domain API request into MongoDB",
+      "Participated in monthly chapter meets and bi-weekly sprint demo for Real Time Payment Directors, Clients, and Shareholders"
+    ],
+    "website": null
+  },
 
-    {
-        "Title": "The Association of Mathematical and Computer Science Students",
-        "SubTitle": "University of Toronto, September 2020 - Present",
-        "BulletPoints":
-            [
-                "Academic Representative for MATA31 (Calculus I) Fall 2020",
-                "Holding Weekly Office hours for students to assist with academic concerns and issues",
-                "Assisting with planning and executing seminar for midterm and final preperation and effective learning strategies",
-                "Communicating among other team members and instructors to plan out crucial learning concepts"
-            ],
-        "website": "https://www.amacss.org/" 
-    },
+  {
+    "Title": "The Association of Mathematical and Computer Science Students",
+    "SubTitle": "University of Toronto, September 2020 - Present",
+    "BulletPoints": [
+      "Academic Representative for MATA31 (Calculus I) Fall 2020",
+      "Holding Weekly Office hours for students to assist with academic concerns and issues",
+      "Assisting with planning and executing seminar for midterm and final preperation and effective learning strategies",
+      "Communicating among other team members and instructors to plan out crucial learning concepts"
+    ],
+    "website": "https://www.amacss.org/"
+  },
 
-    {
-        "Title": "Associate Staff, The Canadian National Exhibition",
-        "SubTitle": "July 2019 - August 2019",
-        "BulletPoints":
-            [
-                "Held in-door activies for children to play and past time with",
-                "Provided clear instruction to children and adults with standard protocols to prevent accidents and mishaps",
-                "Followed the practice of WHMIS"
-            ],
-        "website": null
-    }
+  {
+    "Title": "Associate Staff, The Canadian National Exhibition",
+    "SubTitle": "July 2019 - August 2019",
+    "BulletPoints": [
+      "Held in-door activies for children to play and past time with",
+      "Provided clear instruction to children and adults with standard protocols to prevent accidents and mishaps",
+      "Followed the practice of WHMIS"
+    ],
+    "website": null
+  }
 ]

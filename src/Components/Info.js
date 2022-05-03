@@ -85,7 +85,7 @@ class nav extends Component {
 
           <Info>
             <p  style={{ "padding-left": "1rem" }}>
-              I am a third year
+              I am a forth year
               <strong style={{ color: "rgb(233, 69, 96)" }}>
                 {" "}
                 computer science{" "}
