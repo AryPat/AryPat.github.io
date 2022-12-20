@@ -1,88 +1,124 @@
 [
-    {
-        "Title": "U-Impactify",
-        "SubTitle": "An E-Learning website for the social-purpose-sector",
-        "BulletPoints":
-            [
-                "Users can use this platform to develop their company's capacity, teach, and engage in various courses",
-                "Full-Stack Development using Agile Methodologies and Jira Board to track development progress",
-                "Worked in a team of seven over the span of four sprints, each two weeks long"
-            ],
-        "Website": "https://uimpactify.herokuapp.com/",
-        "Github": "https://github.com/AryPat/U-Impactify",
-        "Tech" : ["Angular", "MongoDB", "Node", "Socket.io", "Agile", "Chart.js", "GridFS", "Clarity", "Figma", "Jira", "ngx-file-drop"]
-    },
+  {
+    "Title": "Drawhub",
+    "SubTitle": "Draw, together.",
+    "BulletPoints": [
+      "DrawHub is the easiest and fastest way to get your ideas onto a digital canvas",
+      "Work alone, or with others in realtime, to create and share digital masterpieces straight to the cloud. "
+    ],
+    "Website": "https://drawhub.tech/",
+    "Github": "https://github.com/navn-r/drawhub",
+    "Tech": [
+      "Nx",
+      "React + TypeScript",
+      "NestJS",
+      "Apollo GraphQL",
+      "Socket.io",
+      "Bull",
+      "Nodemailer",
+      "MongoDB",
+      "Redis",
+      "Auth0",
+      "AWS S3",
+      "Google Drive API",
+      "Twilio SendGrid",
+      "Docker",
+      "Github Actions",
+      "Kubernetes",
+      "DigitalOcean",
+      "Nxinx"
+    ]
+  },
+  {
+    "Title": "U-Impactify",
+    "SubTitle": "An E-Learning website for the social-purpose-sector",
+    "BulletPoints": [
+      "Users can use this platform to develop their company's capacity, teach, and engage in various courses",
+      "Full-Stack Development using Agile Methodologies and Jira Board to track development progress",
+      "Worked in a team of seven over the span of four sprints, each two weeks long"
+    ],
+    "Website": "https://uimpactify.herokuapp.com/",
+    "Github": "https://github.com/AryPat/U-Impactify",
+    "Tech": [
+      "Angular",
+      "MongoDB",
+      "Node",
+      "Socket.io",
+      "Agile",
+      "Chart.js",
+      "GridFS",
+      "Clarity",
+      "Figma",
+      "Jira",
+      "ngx-file-drop"
+    ]
+  },
 
-    {
-        "Title": "Splitify",
-        "SubTitle": "Mobile Application for groups of friends to evenly split the cost of an expense",
-        "BulletPoints":
-            [
-                "Create, update, and edit profiles",
-                "Create and customize friend groups",
-                "Add transactions with members part of the group",
-                "Calculate how much each individual pays for each transaction"
-            ],
-        "Website": null,
-        "Github": "https://github.com/JavaScape/Splitify",
-        "Tech" : ["React Native", "Firebase Store", "Firebase Auth"]
-    },
+  {
+    "Title": "Splitify",
+    "SubTitle": "Mobile Application for groups of friends to evenly split the cost of an expense",
+    "BulletPoints": [
+      "Create, update, and edit profiles",
+      "Create and customize friend groups",
+      "Add transactions with members part of the group",
+      "Calculate how much each individual pays for each transaction"
+    ],
+    "Website": null,
+    "Github": "https://github.com/JavaScape/Splitify",
+    "Tech": ["React Native", "Firebase Store", "Firebase Auth"]
+  },
 
-    {
-        "Title": "Spotify API Clone",
-        "SubTitle": "REST API that mimics Spotify using Microservices",
-        "BulletPoints":
-            [
-                "Create, Update, and Delete Profiles",
-                "Follow and Unfollow profiles",
-                "Like, and unlike songs to playlist",
-                "Querying songs by properties",
-                "Microservies used for future extensibility if required"
-            ],
-        "Website": null,
-        "Github": "https://github.com/AryPat/Spotify-API-Clone",
-        "Tech" : ["Java", "Spring Boot", "MongoDB", "Neo4j"]
-    },
+  {
+    "Title": "Spotify API Clone",
+    "SubTitle": "REST API that mimics Spotify using Microservices",
+    "BulletPoints": [
+      "Create, Update, and Delete Profiles",
+      "Follow and Unfollow profiles",
+      "Like, and unlike songs to playlist",
+      "Querying songs by properties",
+      "Microservies used for future extensibility if required"
+    ],
+    "Website": null,
+    "Github": "https://github.com/AryPat/Spotify-API-Clone",
+    "Tech": ["Java", "Spring Boot", "MongoDB", "Neo4j"]
+  },
 
-    {
-        "Title": "Mock Linux Shell",
-        "SubTitle": "Java Application that mimics commands found in terminal",
-        "BulletPoints":
-            [
-                "Followed Agile Software Development Framework while working in groups of 3",
-                "Encompassed SOLID, Single Responsibily, and OOP principles",
-                "Create, save, and load File Systems"
-            ],
-        "Website": null,
-        "Github": "https://github.com/AryPat/Mock-Linux-Command-Line-Interface",
-        "Tech" : ["Java","Agile","SOLID principles","Object Oriented Programming"]
-    },
+  {
+    "Title": "Mock Linux Shell",
+    "SubTitle": "Java Application that mimics commands found in terminal",
+    "BulletPoints": [
+      "Followed Agile Software Development Framework while working in groups of 3",
+      "Encompassed SOLID, Single Responsibily, and OOP principles",
+      "Create, save, and load File Systems"
+    ],
+    "Website": null,
+    "Github": "https://github.com/AryPat/Mock-Linux-Command-Line-Interface",
+    "Tech": ["Java", "Agile", "SOLID principles", "Object Oriented Programming"]
+  },
 
-    {
-        "Title": "Un-beatable Connect4 AI",
-        "SubTitle": "Java Application with Graphical User Interface",
-        "BulletPoints":
-            [
-                "Play with friends or against our customly designed AI",
-                "Multiple AI difficulties (easy to very hard)",
-                "AI made by Alpha Beta Pruning and MinMax"
-            ],
-        "Website": null,
-        "Github": "https://github.com/AryPat/Connect4AI",
-        "Tech" : ["Java","Window Builder", "Object Oriented Programming", "GUI"]
-    },
+  {
+    "Title": "Un-beatable Connect4 AI",
+    "SubTitle": "Java Application with Graphical User Interface",
+    "BulletPoints": [
+      "Play with friends or against our customly designed AI",
+      "Multiple AI difficulties (easy to very hard)",
+      "AI made by Alpha Beta Pruning and MinMax"
+    ],
+    "Website": null,
+    "Github": "https://github.com/AryPat/Connect4AI",
+    "Tech": ["Java", "Window Builder", "Object Oriented Programming", "GUI"]
+  },
 
-    {
-        "Title": "Portfolio Website",
-        "SubTitle": "Website built to showcase my work & experiences",
-        "BulletPoints":
-            [
-                "Made with React, a front end development framework",
-                "Spline and Particle Js used for 3D & Particle Effects",
-                "Deployed via Github Pages, domain registered with NameCheap"
-            ],
-        "Website": "https://arypat.me/UselessWeb/",
-        "Github": "https://github.com/AryPat/AryPat.github.io",
-        "Tech" : ["HTML", "CSS", "Boostrap", "Spline", "React", "React-Particle-Js"]
-    }
+  {
+    "Title": "Portfolio Website",
+    "SubTitle": "Website built to showcase my work & experiences",
+    "BulletPoints": [
+      "Made with React, a front end development framework",
+      "Spline and Particle Js used for 3D & Particle Effects",
+      "Deployed via Github Pages, domain registered with NameCheap"
+    ],
+    "Website": "https://arypat.me/UselessWeb/",
+    "Github": "https://github.com/AryPat/AryPat.github.io",
+    "Tech": ["HTML", "CSS", "Boostrap", "Spline", "React", "React-Particle-Js"]
+  }
 ]

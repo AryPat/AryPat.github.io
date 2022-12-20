@@ -12,22 +12,21 @@ import project from "../Assets/project.json";
 import { CgSun } from "react-icons/cg";
 import { HiMoon } from "react-icons/hi";
 
-
 const Heading = styled.div`
   font-size: 2rem;
-  color: ${props => props.theme.headingColor};
+  color: ${(props) => props.theme.headingColor};
   padding-bottom: 1rem;
   transition: all 2s ease;
 `;
 
 const Title = styled.div`
   font-size: 1.3rem;
-  color: ${props => props.theme.titleColor};
+  color: ${(props) => props.theme.titleColor};
   transition: all 2s ease;
 `;
 
 const SubTitle = styled.div`
-  color:${props => props.theme.subTitleColor};
+  color: ${(props) => props.theme.subTitleColor};
   font-size: 1rem;
   padding-top: 0.2rem;
   transition: all 2s ease;
@@ -42,11 +41,10 @@ const Tech = styled.div`
   transition: all 2s ease;
 `;
 
-
 const TechBubble = styled.div`
   font-size: 0.8rem;
-  background: ${props => props.theme.techBoxColor};
-  color: ${props => props.theme.techBoxText};
+  background: ${(props) => props.theme.techBoxColor};
+  color: ${(props) => props.theme.techBoxText};
   padding: 0.75rem;
   border-radius: 1rem;
   margin: 0.2rem;
@@ -54,12 +52,11 @@ const TechBubble = styled.div`
   transition: all 2s ease;
 `;
 
-
 const Info = styled.div`
-  color: ${props => props.theme.textBody};
+  color: ${(props) => props.theme.textBody};
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-color:${props => props.theme.boxColor};
+  background-color: ${(props) => props.theme.boxColor};
   border-radius: 0.5rem;
   width: 100%;
   height: 100%;
@@ -71,20 +68,15 @@ const Info = styled.div`
   transition: all 2s ease;
 `;
 
-
 class nav extends Component {
-  
   render() {
-   
-
     return (
       <div class="container">
         <div class="container-body">
-
           <Heading id="about">Hello there</Heading>
 
           <Info>
-            <p  style={{ "padding-left": "1rem" }}>
+            <p style={{ "padding-left": "1rem" }}>
               I am a forth year
               <strong style={{ color: "rgb(233, 69, 96)" }}>
                 {" "}
@@ -104,7 +96,7 @@ class nav extends Component {
               <br></br>
               <br></br>
               GPA:
-              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.75</strong>
+              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.74</strong>
               /4.00
               <br></br>
               <br></br>I am a self-driven enthusiastic person who is always
@@ -149,100 +141,78 @@ class nav extends Component {
             </div>
           </Info>
 
-          <Heading id="Experience" >
-            Experience
-          </Heading>
+          <Heading id="Experience">Experience</Heading>
 
-          {
-            experience.map((exp) =>
-            {
-              return <Info>
+          {experience.map((exp) => {
+            return (
+              <Info>
                 <p class="container-info-inside">
                   <div class="container-headings">
-                  <div class="infoSocialRow">
-                  <Title>{exp.Title}</Title>
-                  <SubTitle>{exp.SubTitle}</SubTitle>
+                    <div class="infoSocialRow">
+                      <Title>{exp.Title}</Title>
+                      <SubTitle>{exp.SubTitle}</SubTitle>
                     </div>
-                    
-                    {exp.website && 
-                      <a href={exp.website} target="__blank" style={{ "padding-right": "1rem" }}>
-                        <img
-                          src={goto}
-                          alt="logo"
-                          width="35rem"
-                 
-                        />
-                      </a>}
+
+                    {exp.website && (
+                      <a
+                        href={exp.website}
+                        target="__blank"
+                        style={{ "padding-right": "1rem" }}
+                      >
+                        <img src={goto} alt="logo" width="35rem" />
+                      </a>
+                    )}
                   </div>
-                  
-                  
-                  <ul style={{ "width": "85%" }}>
+
+                  <ul style={{ width: "85%" }}>
                     {exp.BulletPoints.map((point) => {
                       return <li>{point}</li>;
                     })}
                   </ul>
                 </p>
-              </Info>;
-
-            })
-          }
+              </Info>
+            );
+          })}
 
           <Heading id="Projects">Projects</Heading>
 
-          {
-            project.map((pro) => {
-              return <Info>
-              <p class="container-info-inside">
-                <div class="container-headings">
-                  <div class="infoSocialRow">
-                    <Title>{pro.Title}</Title>
-                    <SubTitle>
-                      {pro.SubTitle}
-                    </SubTitle>
+          {project.map((pro) => {
+            return (
+              <Info>
+                <p class="container-info-inside">
+                  <div class="container-headings">
+                    <div class="infoSocialRow">
+                      <Title>{pro.Title}</Title>
+                      <SubTitle>{pro.SubTitle}</SubTitle>
+                    </div>
+
+                    <div class="infoSocialMultiple">
+                      {pro.Website !== null && (
+                        <a href={pro.Website} target="__blank">
+                          <img src={goto} alt="logo" width="35rem" />
+                        </a>
+                      )}
+                      <a href={pro.Github} target="__blank" class="github">
+                        <img src={github} alt="logo" width="40rem" />
+                      </a>
+                    </div>
                   </div>
 
-                  
-                  <div class="infoSocialMultiple">
-                  {pro.Website !== null && <a href={pro.Website} target="__blank">
-                      <img
-                        src={goto}
-                        alt="logo"
-                        width="35rem"
-       
-                      />
-                    </a>}
-                    <a
-                      href={pro.Github}
-                      target="__blank"
-                      class="github"
-                    >
-                      <img
-                        src={github}
-                        alt="logo"
-                        width="40rem"
-             
-                      />
-                    </a>
-                  
-                    
-                  </div>
-                </div>
-
-                <ul>
-                  {
-                    pro.BulletPoints.map((points) => {
+                  <ul>
+                    {pro.BulletPoints.map((points) => {
                       return <li>{points}</li>;
-                    })
-                  }
-                </ul>
-                
-                <Tech>
-                  {pro.Tech.map((tech) => {return  <TechBubble class="techBubble">{tech}</TechBubble>;})}
-                </Tech>
-              </p>
-            </Info>;
-            })
-          }
+                    })}
+                  </ul>
+
+                  <Tech>
+                    {pro.Tech.map((tech) => {
+                      return <TechBubble class="techBubble">{tech}</TechBubble>;
+                    })}
+                  </Tech>
+                </p>
+              </Info>
+            );
+          })}
         </div>
       </div>
     );

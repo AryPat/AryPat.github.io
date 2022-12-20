@@ -1,9 +1,12 @@
 [
   {
     "Title": "Backend Developer Intern ",
-    "SubTitle": "Shopify, May 2022 - Aug 2022",
+    "SubTitle": "Shopify, May 2022 - Sept 2022",
     "BulletPoints": [
-      "Incoming Summer 2022 Intern – Developing using Ruby on Rails under the core team TRUST"
+      "Creating custom scanners validating security threats using Ruby on Rails, GraphQL, and Sidekiq",
+      "Spearheading the development of invalidating leaked tokens across Shopify’s network through GitHub",
+      "Extending software infrastructure using Google Cloud Platform and Kubernetes",
+      "Increase development setup time by 40% by migrating local development into a high-performance virtual machine"
     ],
     "website": "https://www.shopify.ca/"
   },
@@ -21,8 +24,9 @@
 
   {
     "Title": "Teaching Assistant",
-    "SubTitle": "University of Toronto, Sept 2021 - Aug 2022",
+    "SubTitle": "University of Toronto, Sept 2021 - Dec 2022",
     "BulletPoints": [
+      "Software Design (CSCB07 - Fall 2022)",
       "Software Design (CSCB07 - Summer 2022)",
       "Design and Analysis of Data Structures (CSCB63 - Winter 2022)",
       "Software Design (CSCB07 - Fall 2021)"
