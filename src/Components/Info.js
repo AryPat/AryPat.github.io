@@ -96,7 +96,7 @@ class nav extends Component {
               <br></br>
               <br></br>
               GPA:
-              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.74</strong>
+              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.75</strong>
               /4.00
               <br></br>
               <br></br>I am a self-driven enthusiastic person who is always
