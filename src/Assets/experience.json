@@ -1,59 +1,51 @@
 [
   {
-    "Title": "Backend Developer Intern ",
-    "SubTitle": "Shopify, May 2022 - Sept 2022",
+    "Title": "Teaching Assistant",
+    "SubTitle": "University of Toronto, Sept 2021 - Present",
     "BulletPoints": [
-      "Creating custom scanners validating security threats using Ruby on Rails, GraphQL, and Sidekiq",
-      "Spearheading the development of invalidating leaked tokens across Shopify’s network through GitHub",
-      "Extending software infrastructure using Google Cloud Platform and Kubernetes",
-      "Increase development setup time by 40% by migrating local development into a high-performance virtual machine"
+      "Introduction to Software Engineering (CSCC01 - Summer 2023)",
+      "Software Design (CSCB07 - Fall 2022)",
+      "Software Design (CSCB07 - Summer 2022)",
+      "Design and Analysis of Data Structures (CSCB63 - Winter 2022)",
+      "Software Design (CSCB07 - Fall 2021)",
+      "",
+      "Independently create and lead weekly software design labs and tutorials to 30+ upper-year computer science students",
+      "Grade Quizzes, Assignments, and Final Exams",
+      "Worked closely with the course instructor to plan Object-oriented programming, Agile Scrum, SDLC, and SOLID design concepts"
+    ],
+    "website": null
+  },
+  {
+    "Title": "Backend End Developer Intern",
+    "SubTitle": "Shopify, May 2022 - Dec 2022",
+    "BulletPoints": [
+      "Worked within the Security team to create custom scanners responsible for validating security threats, such as XSS, Hmac, and Clickjacking, for Shopify apps using Ruby on Rails, GraphQL, and Sidekiq",
+      "Spearheaded the development of invalidating leaked tokens across Shopify’s network using webhooks issued by GitHub, leading to the discovery of 5000+ leaked active tokens in public GitHub repositories",
+      "Designed and implemented a custom domain validation scanner that notifies Shopify app reviewers when an app's domain is expired or about to expire",
+      "Drastically Increased development setup time by migrating local development into a high-performance virtual machine"
     ],
     "website": "https://www.shopify.ca/"
   },
   {
     "Title": "Software Engineer Intern",
-    "SubTitle": "Github & Major League Hacking, Sept 2021 - Dec 2021",
+    "SubTitle": "Github, Sept 2021 - Dec 2021",
     "BulletPoints": [
-      "Pioneered the development of a CLI tool in Node.js allowing 1000s of customers prepare repository migrations to GitHub",
+      "Pioneered the development of a CLI tool in Node.js that enables thousands of customers to prepare repository migrations to GitHub, and its success resulted in its release as an open-source project on GitHub",
       "Optimized version control fetching metrics by 80% using concurrency and multithreaded API requests",
-      "Built a custom mapper to export critical metrics into CSVs enabling customers to scope the cost of migration efforts",
-      "Utilized ETL and Fan-Out processes to migrate GitHub Enterprise repositories to Github.com using Ruby on Rails, Twirp and Sidekiq"
+      "Built a custom mapper to export critical metrics into CSVs, enabling customers to scope the cost of migration efforts",
+      "Utilized ETL and Fan-Out processes to migrate GitHub Enterprise repositories to GitHub using Ruby on Rails, Twirp, and Sidekiq"
     ],
-    "website": "https://fellowship.mlh.io/programs/software-engineering"
-  },
-
-  {
-    "Title": "Teaching Assistant",
-    "SubTitle": "University of Toronto, Sept 2021 - Dec 2022",
-    "BulletPoints": [
-      "Software Design (CSCB07 - Fall 2022)",
-      "Software Design (CSCB07 - Summer 2022)",
-      "Design and Analysis of Data Structures (CSCB63 - Winter 2022)",
-      "Software Design (CSCB07 - Fall 2021)"
-    ],
-    "website": null
+    "website": "https://github.com"
   },
   {
     "Title": "Cloud Software Developer",
     "SubTitle": "Royal Bank of Canada, May 2021 - Aug 2021",
     "BulletPoints": [
-      "Contributing to the Real Time Payment Application with a yearly estimated savings of $2 million dollars from Interac",
-      "Developed the foundation of routing e-transfer services within RBC clients using microservice architecture",
-      "Increased overall code testing efforts by 30% by reworking J-Unit and regression test cases for storing mapped domain API request into MongoDB",
-      "Participated in monthly chapter meets and bi-weekly sprint demo for Real Time Payment Directors, Clients, and Shareholders"
+      "Contributed to a Real-Time Payment application with Java, saving RBC $2 million from Interac annually",
+      "Increased code coverage by 30% by reworking regression tests, preventing redundant API setup calls to MongoDB",
+      "Led the migration of AWS S3 to Vault for 10 applications in QA, development, and production environments, resulting in 40% faster build time and eliminating reoccurring credential issues",
+      "Developed and demoed the foundation of new routing services for Interac e-transfer with Spring Boot and Apache Camel, used by millions of concurrent users"
     ],
     "website": null
-  },
-
-  {
-    "Title": "The Association of Mathematical and Computer Science Students",
-    "SubTitle": "University of Toronto, September 2020 - Present",
-    "BulletPoints": [
-      "Academic Representative for MATA31 (Calculus I) Fall 2020",
-      "Holding Weekly Office hours for students to assist with academic concerns and issues",
-      "Assisting with planning and executing seminar for midterm and final preperation and effective learning strategies",
-      "Communicating among other team members and instructors to plan out crucial learning concepts"
-    ],
-    "website": "https://www.amacss.org/"
   }
 ]

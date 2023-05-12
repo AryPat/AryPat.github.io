@@ -96,7 +96,7 @@ class nav extends Component {
               <br></br>
               <br></br>
               GPA:
-              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.75</strong>
+              <strong style={{ color: "rgb(233, 69, 96)" }}> 3.70</strong>
               /4.00
               <br></br>
               <br></br>I am a self-driven enthusiastic person who is always
@@ -104,8 +104,7 @@ class nav extends Component {
               knowledge.
               <br></br>
               <br></br>
-              Please feel free to get in touch with me! I do not bite{" "}
-              <strong style={{ color: "rgb(233, 69, 96)" }}> :D </strong>
+              Please feel free to get in touch!{" "}
             </p>
 
             <div class="social">
@@ -166,6 +165,7 @@ class nav extends Component {
 
                   <ul style={{ width: "85%" }}>
                     {exp.BulletPoints.map((point) => {
+                      if (point.length === 0) return <br></br>;
                       return <li>{point}</li>;
                     })}
                   </ul>
@@ -206,7 +206,9 @@ class nav extends Component {
 
                   <Tech>
                     {pro.Tech.map((tech) => {
-                      return <TechBubble class="techBubble">{tech}</TechBubble>;
+                      return (
+                        <TechBubble class="techBubble">{tech}</TechBubble>
+                      );
                     })}
                   </Tech>
                 </p>
