@@ -1,1 +1,1 @@
-Deployed At: Https://arypat.me :D
+Deployed At: https://arypat.me :D
