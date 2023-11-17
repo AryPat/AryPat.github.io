@@ -3,17 +3,27 @@
     "Title": "Teaching Assistant",
     "SubTitle": "University of Toronto, Sept 2021 - Present",
     "BulletPoints": [
-      "Introduction to Software Engineering (CSCC01 - Summer 2023)",
-      "Software Design (CSCB07 - Fall 2022)",
-      "Software Design (CSCB07 - Summer 2022)",
-      "Design and Analysis of Data Structures (CSCB63 - Winter 2022)",
-      "Software Design (CSCB07 - Fall 2021)",
+      "Engineering Large Software Systems (4th year course - CSCD01 - Fall 2023)",
+      "Introduction to Databases (3rd year course - CSCC43 - Fall 2023)",
+      "Introduction to Software Engineering (3rd year course - CSCC01 - Summer 2023)",
+      "Software Design (2nd year course - CSCB07 - Fall 2022)",
+      "Software Design (2nd year course - CSCB07 - Summer 2022)",
+      "Design and Analysis of Data Structures (2nd year course - CSCB63 - Winter 2022)",
+      "Software Design (2nd year course - CSCB07 - Fall 2021)",
       "",
       "Independently create and lead weekly software design labs and tutorials to 30+ upper-year computer science students",
       "Grade Quizzes, Assignments, and Final Exams",
       "Worked closely with the course instructor to plan Object-oriented programming, Agile Scrum, SDLC, and SOLID design concepts"
     ],
     "website": null
+  },
+  {
+    "Title": "Software Developer Intern",
+    "SubTitle": "Shopify, Sept 2023 - Dec 2023",
+    "BulletPoints": [
+     "Vulnerability Management Team"
+    ],
+    "website": "https://aryanpatel.me"
   },
   {
     "Title": "Backend End Developer Intern",

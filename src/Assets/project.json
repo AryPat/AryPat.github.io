@@ -1,5 +1,20 @@
 [
   {
+    "Title": "Github Migration Analyzer",
+    "SubTitle": "Size Migration.",
+    "BulletPoints": [
+      "The Migration Analyzer is a command-line (cli) utility tool that helps customers migrating repositories to GitHub plan for and size their migration in terms.",
+      "The tool currently supports migrations from Azure DevOps and GitHub Cloud as a source to GitHub Cloud as a destination."
+    ],
+    "Github": "https://github.com/github/gh-migration-analyzer",
+    "Tech": [
+      "Node JS",
+      "Docker",
+      "Github API",
+      "Azure DevOps API"
+    ]
+  },
+  {
     "Title": "Drawhub",
     "SubTitle": "Draw, together.",
     "BulletPoints": [
