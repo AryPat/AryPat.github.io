@@ -1,5 +1,13 @@
 [
   {
+    "Title": "Software Engineer Intern",
+    "SubTitle": "Wealthsimple, Sept 2023 - Dec 2023",
+    "BulletPoints": [
+     "Vulnerability Management Team"
+    ],
+    "website": "https://wealthsimple.com"
+  },
+  {
     "Title": "Teaching Assistant",
     "SubTitle": "University of Toronto, Sept 2021 - Present",
     "BulletPoints": [
@@ -16,14 +24,6 @@
       "Worked closely with the course instructor to plan Object-oriented programming, Agile Scrum, SDLC, and SOLID design concepts"
     ],
     "website": null
-  },
-  {
-    "Title": "Software Developer Intern",
-    "SubTitle": "Shopify, Sept 2023 - Dec 2023",
-    "BulletPoints": [
-     "Vulnerability Management Team"
-    ],
-    "website": "https://aryanpatel.me"
   },
   {
     "Title": "Backend End Developer Intern",
